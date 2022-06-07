@@ -1,0 +1,66 @@
+<tittle>Formulario de Registro</tittle>
+<form action="/process" method="post">
+    <div>
+        <label> Primer nombre: </label>
+        <input type="text" name="name" 
+        placeholder="Tu nombre" >
+    </div>
+
+    <div>
+        <label> Segundo nombre: </label>
+        <input type="text" name="name" 
+        placeholder="Tu 2do nombre" >
+    
+    </div>
+
+    <div>
+        <label>Direccion Email: </label>
+        <input type="text" name="email" 
+        placeholder="gmail.example@gmail.com" >
+    </div>
+    <div>
+        <label>Contraseña: </label>
+        <input type="text" name="password" 
+        placeholder="Tu Contraseña" >
+    </div>
+
+    <div>
+        <label>Confirma tu Contraseña: </label>
+        <input type="text" name="password" 
+        placeholder="Confirma tu Contraseña" >
+    </div>
+
+    <div>
+        <label>Fecha de nacimiento: </label>
+        <input type="Date" name="birthday" 
+        placeholder="mm/dd/yyyy" >
+    </div>
+    
+    <div>
+        <input type="Radio" name="colorin" value="ffffff" checked> "Masculino" 
+        <input type="Radio" name="colorin" value="ffffff" checked> Female
+        <input type="Radio" name="colorin" value="ffffff" checked> No-Binario
+        <input type="Radio" name="colorin" value="ffffff" checked> Prefiero no decirlo 
+        
+    </div>
+
+    <div>
+        <p><strong> Una corta descripcion sobre mi:</strong></p>
+        <textarea name="comment" cols="40" rows="4"></textarea>   
+    </div>
+
+    <div>
+        <label> Lenguaje favorito: </label>
+        <select name="Lenguaje">
+            <option><strong><em> Java Script</em></strong></option>
+            <option>Phyton</option>
+            <option>Css</option>
+        </select>
+    </div>
+        <input type="checkbox" name="offers" 
+        id="offers">
+        <label for="offers">Me gustaría 
+        recibir correos con ofertas.</label>
+    </div>
+    <input type="submit" value="Inicia Sesion" >
+</form>
