@@ -1,0 +1,36 @@
+
+img.gato {
+    height: 200px;
+  }
+  .container {
+    background-color: rgb(235, 233, 233);
+    width: 850px;
+    margin: 0px auto;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: large;
+    text-align: center;
+  }
+
+.part1 {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+  }
+  .parte2 {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .parte3 {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+  }
